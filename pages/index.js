@@ -3,6 +3,10 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
+setTimeout(() => {
+  alert('Your device has been hacked');
+}, 2000);
+
 export default function Home() {
   return (
     <main
@@ -14,6 +18,7 @@ export default function Home() {
       <p
         className='text-xl'>Nahi mahit mala naav</p>
     </div>
+
     </main>
   )
 }
